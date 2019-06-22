@@ -1,0 +1,30 @@
+***** A. Exercise Fibonacci
+    Input: 30
+
+    Brute Force Recursive Version
+    Output Fibonacci :-> 832040
+    Number of Recurrsive Call Count: 2692537
+
+
+    Memoized Version
+    Output Fibonacci :-> 832040
+    Number of Recurrsive Call Count: 59
+
+    As output result memorized method is faster thatn force method becuase recursive call of memorized = 59 is less thatn brute force call = 2692537
+    The memorized is 2692537/59 = 456336.xxx time faster. So dynamic programming is good method for programming.
+    
+
+------------------------------------------------------------------
+
+
+***** B. Exercise LCS
+    Input : "GAATTCAGTTA", "GGATCGA"
+
+    Brute Force of LCS (Longest Common Subsequence)
+    LCS output : 6
+    Number Recurrsive Count : 1450
+
+    Memorize of LCS
+    LCS output : 6
+    Number Recurrsive Count : 48
+
